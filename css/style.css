@@ -115,6 +115,7 @@ button:hover {
 
 .sponsors {
 	display: grid;
+	grid-template: 1fr 1fr / 25% 25% 25% 25%;
 	text-align: center;
 }
 
