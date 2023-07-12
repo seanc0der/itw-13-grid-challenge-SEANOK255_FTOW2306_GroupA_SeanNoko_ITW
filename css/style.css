@@ -139,8 +139,15 @@ button:hover {
 
 /* ===== grid modifiers ===== */
 
+#categories {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
 .col-span-2 {
+	grid-column: span 2;
 }
 
 .row-span-2 {
+	grid-row: span 2;
 }
