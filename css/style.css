@@ -89,6 +89,11 @@ aside {
 
 /* ===== Category ===== */
 
+#categories {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
 .categories {
 	text-align: center;
 }
@@ -127,6 +132,8 @@ button:hover {
 /* ===== Footer ====== */
 
 #footer {
+	display: grid;
+	grid-template: 1fr 1fr 1fr / 1fr 1fr;
 	background-color: rgb(31, 31, 31);
 	color: white;
 
@@ -139,11 +146,6 @@ button:hover {
 }
 
 /* ===== grid modifiers ===== */
-
-#categories {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-}
 
 .col-span-2 {
 	grid-column: span 2;
